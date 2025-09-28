@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue)](https://www.python.org/)  
 [![PyTorch](https://img.shields.io/badge/pytorch-2.x-red)](https://pytorch.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 [![Build Status](https://img.shields.io/badge/build-passing-brightgreen)](#)  
 [![Made with ❤️](https://img.shields.io/badge/Made%20with-Deep%20Learning-red)](#)
 
@@ -22,9 +21,8 @@ The ultimate goal is a **silent speech interface** — technology that allows co
 
 ## 🏗️ System Architecture  
 
-```mermaid
 flowchart TD
-    A[Silent EMG Input] --> B[Translator (TCN)]
+    A [Silent EMG Input] --> B[Translator (TCN)]
     B --> C[Speech Features (MFCCs)]
     C --> D[Artist (Generator)]
     D --> E[Judge (Discriminator)]
